@@ -29,19 +29,21 @@ function AboutVision() {
                 {/* <!-- Single Services --> */}
                 <div class="widgets widgets--content-1-l5">
                   <h5 class="widgets__title">Our Target</h5>
-                  <p class="widgets__content">Business advisory service advises current and future businesses prospects of a client, with the aim of</p>
+                  <p class="widgets__content">Young and vibrant Nigerian youths including marginalized groups</p>
                 </div>
                 {/* <!--/ .Single Services --> */}
                 {/* <!-- Single Services --> */}
                 <div class="widgets widgets--content-1-l5">
                   <h5 class="widgets__title">what we teach</h5>
-                  <p class="widgets__content">Business advisory service advises current and future businesses prospects of a client, with the aim of</p>
+                  <p class="widgets__content">
+ Topics in neuroscience, Career development and Journal writing 
+                    </p>
                 </div>
                 {/* <!--/ .Single Services --> */}
                 {/* <!-- Single Services --> */}
                 <div class="widgets widgets--content-1-l5">
                   <h5 class="widgets__title">How we teach</h5>
-                  <p class="widgets__content">Business advisory service advises current and future businesses prospects of a client, with the aim of</p>
+                  <p class="widgets__content">We reach out to youths through campaigns, sensitizations, webinars, workshops and brainbees.</p>
                 </div>
                 {/* <!--/ .Single Services --> */}
               </div>

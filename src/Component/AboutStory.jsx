@@ -23,14 +23,15 @@ function AboutStory() {
           <div class="col-lg-6 col-md-12">
             <div class="section-title section-title--l3">
               <p class="section-title__description me-5" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true">
-                Founded on May 30th, 2019, Simply Neuroscience is an international, student-led nonprofit organization dedicated to fostering students' interdisciplinary interests in the brain, specifically through neuroscience and psychology education, outreach, and awareness. Our aim is to empower youth to engage in brain-related fields through projects and initiatives on local through global scales.
+              YNAN is an association that provides a platform for interaction, innovation, creativity and career opportunities
               </p>
             </div>
           </div>
           <div class="col-lg-6 col-md-12">
             <div class="section-title section-title--l3">
               <p class="section-title__description me-5" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" data-aos-once="true">
-                Overall, we work to increase early neuroscience accessibility through connecting students with free online resources, opportunities, events, mentorship, and more through our diverse array of 25 departmental initiatives. Whitin a year of establishment we have been able to:
+              to explore into areas related to the nervous system. Our objectives are to:
+
               </p>
             </div>
           </div>
@@ -47,21 +48,23 @@ function AboutStory() {
             <div class="feature-right" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               {/* <!-- Feature List --> */}
               <ul class="feature-content--l3__list list-unstyled">
-                <li>Set-Up A vibrant Community</li>
-                <li>Simplify Neuroscience to students</li>
-                <li>Conduct Outreach</li>
+                <li>Reinforce the relevance of Neuroscience and practice to students.</li>
+                <li>Encourage participation in outreaches and creating awareness on neurological conditions.</li>
+                <li>Allow students to cultivate their interest in Neuroscience in an informal environment. </li>
+
+               
               </ul>
               {/* <!--/ .Feature List --> */}
               {/* <!--Counter Bar --> */}
               <div class="feature-counter feature-counter--l3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
                 <div class="counter-widgets dark-mode-texts">
                   <div class="counter-widgets__single counter-content">
-                    <h2 class="counter-content__heading"><span class="counter">280</span></h2>
-                    <p class="counter-content__text">Followers & Subscribers</p>
+                    <h2 class="counter-content__heading">+<span class="counter">10,000</span></h2>
+                    <p class="counter-content__text">Followers </p>
                   </div>
                   <div class="counter-widgets__single counter-content">
-                    <h2 class="counter-content__heading"><span class="counter">640</span></h2>
-                    <p class="counter-content__text">Volunteer Staff Members</p>
+                    <h2 class="counter-content__heading">+<span class="counter">10</span></h2>
+                    <p class="counter-content__text">Universities</p>
                   </div>
                   <div class="counter-widgets__single counter-content">
                     <h2 class="counter-content__heading">+<span class="counter">3500</span></h2>

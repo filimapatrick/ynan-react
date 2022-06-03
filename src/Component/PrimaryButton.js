@@ -10,9 +10,10 @@ function PrimaryButton({title}) {
 }
 
 const PrimaryButtonStyled = styled.a`
-    background-color: green;
+    background-color: white;
     padding: .8rem 2.5rem;
-    color: white;
+    color: green;
+    border: 1px solid green;
     cursor: pointer;
     display: inline-block;
     font-size: inherit;
@@ -31,7 +32,8 @@ const PrimaryButtonStyled = styled.a`
     }
     &:hover::after{
         width: 100%;
-        background-color: yellow;
+        background-color: 3px solid green;
+        color: red;
     }
 `;
 export default PrimaryButton;

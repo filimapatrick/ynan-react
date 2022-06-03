@@ -182,7 +182,7 @@ function BlogCard() {
         </div>
         <div class="row justify-content-center mt-7">
           <div class="col-xl-4">
-            <div class="pagination">
+            {/* <div class="pagination">
               <ul class="list-unstyled text-center mx-auto">
                 <li>
                   <a href="#"><i class="fa fa-chevron-left"></i></a>
@@ -195,7 +195,7 @@ function BlogCard() {
                   <a href="#"><i class="fa fa-chevron-right"></i></a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -40,7 +40,8 @@ function AboutSummary() {
               <div className="section-title section-title--l5">
                 <h6 className="section-title__sub-heading text-primary">Watch video</h6>
                 <h2 className="section-title__heading mb-4">Watch how we work</h2>
-                <p className="section-title__description">Here at Youth Neuroscience Association of Nigeria, our mission is to advance international collaborations of young neuroscientists and Neuro-practitioners by educating them about the brain and motivating them to pursue neuro related career in order to fight the increasing neurological diseases in Nigeria and also contribute to the global community through advocacy.</p>
+                <p className="section-title__description">We advance international collaborations of young neuroscientists and Neuro-practitioners by educating them about the brain and motivating them to pursue neuro related career in order to fight the increasing neurological diseases in Nigeria and also contribute to the global community through advocacy
+                 </p>
               </div>
               <div className="content-btn-group mt-4">
                 <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a>

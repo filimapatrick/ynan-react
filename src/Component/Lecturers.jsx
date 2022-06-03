@@ -1,138 +1,213 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
+import styled from "styled-components";
+import data from "./data";
 
- import A16 from '../image/Lecturers/Orish.jpeg';
- import A17 from '../image/home-8/portfolio-shape.png';
-import A18 from '../image/Lecturers/Lekpa.jpg';
-import A19 from '../image/home-8/portfolio-shape.png';
-import A20 from '../image/home-8/portfolio-shape.png';
- import A21 from '../image/Lecturers//sunny.jpg';
-import A22 from '../image/home-8/portfolio-shape.png';
- import A23 from '../image/home-8/portfolio-shape.png';
+const Lecturers = () => {
 
-
-
-
-function Lecturers() {
-  return (
-    <>
-{/* <!-- Port Area --> */}
-<div class="portfolio-area portfolio-area--l9 bg-default">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-8">
-            {/* <!-- Section Title --> */}
-            <div class="section-title section-title--l9 text-center">
-
-              <h2 class="section-title__heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">People We Are Proud Of</h2>
-            </div>
-            {/* <!--/ .Section Title --> */}
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-md-10" data-aos="fade-right" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-            <div class="portfolio-img mb-5 mb-lg-0">
-              <div class="portfolio-img__single">
-                <img class="w-100" src={A16} alt=""/>
-                <div class="portfolio-img__single__shape">
-                  <img class="w-100" src={A17} alt=""/>
-                  <div class="shape-content">
-                    <h1>01</h1>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-img__single">
-                <img class="w-100" src={A18} alt=""/>
-                <div class="portfolio-img__single__shape">
-                  <img class="w-100" src={A19}alt=""/>
-                  {/* <!-- <img class="w-100" src="./image/home-8/testimonial-img-3.jpg" alt=""> --> */}
-                  <div class="shape-content">
-                    <h1>02</h1>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-img__single">
-                <img class="w-100" src="image/Lecturers/prof-amadi.jpg" alt=""/>
-                <div class="portfolio-img__single__shape">
-                  <img class="w-100" src={A20} alt=""/>
-                  <div class="shape-content">
-                    <h1>03</h1>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-img__single">
-                <img class="w-100" src={A21} alt=""/>
-                <div class="portfolio-img__single__shape">
-                  <img class="w-100" src={A22} alt=""/>
-                  <div class="shape-content">
-                    <h1>04</h1>
-                  </div>
-                </div>
-              </div>
-              <div class="portfolio-img__single">
-                <img class="w-100" src="image/Lecturers/Orish.jpeg" alt=""/>
-                <div class="portfolio-img__single__shape">
-                  <img class="w-100" src={A23} alt=""/>
-                  <div class="shape-content">
-                    <h1>05</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-5 offset-xl-1 col-lg-6 col-md-10" data-aos="fade-left" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-            <div class="portfolio-content">
-              <div class="portfolio-content__single">
-                <h6 class="portfolio-content__sub-heading">
-                  <span class="text-electric-violet-2">Person 01</span>/ 05
-                </h6>
-                <h2 class="portfolio-content__heading">Dr.Mrs.<br class="d-none d-xs-block"/> Orish</h2>
-                <span class="portfolio-content__heading-small">Co-ordinator of the Brain-Bee Competition</span>
-                <p class="portfolio-content__text">We are idea generators,goal seekers, challenge-thirsty professionals creators of unique interner projects. we deliver unconventional solutions, combining the most advanced web technologies, modern design and bold communication. For us, each project is a meaningful adventure, in which we become partners with our clients, on the road to perfection </p>
-                <a href="#" class="btn btn-electric-violet-2 btn--lg- rounded-50">Read More</a>
-              </div>
-              <div class="portfolio-content__single">
-                <h6 class="portfolio-content__sub-heading">
-                  <span class="text-electric-violet-2">Person 02</span>/ 05
-                </h6>
-                <h2 class="portfolio-content__heading">Dr.<br class="d-none d-xs-block"/> David Lekpa</h2>
-                <span class="portfolio-content__heading-small">A benefactor</span>
-                <p class="portfolio-content__text">We are idea generators,goal seekers, challenge-thirsty professionals creators of unique interner projects. we deliver unconventional solutions, combining the most advanced web technologies, modern design and bold communication. For us, each project is a meaningful adventure, in which we become partners with our clients, on the road to perfection </p>
-                <a href="#" class="btn btn-electric-violet-2 btn--lg- rounded-50">Read More</a>
-              </div>
-              <div class="portfolio-content__single">
-                <h6 class="portfolio-content__sub-heading">
-                  <span class="text-electric-violet-2">Person 03</span>/ 05
-                </h6>
-                <h2 class="portfolio-content__heading">Dr.<br class="d-none d-xs-block"/> Amadi</h2>
-                <span class="portfolio-content__heading-small">Benefactor</span>
-                <p class="portfolio-content__text" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">We are idea generators,goal seekers, challenge-thirsty professionals creators of unique interner projects. we deliver unconventional solutions, combining the most advanced web technologies, modern design and bold communication. For us, each project is a meaningful adventure, in which we become partners with our clients, on the road to perfection </p>
-                <a href="#" class="btn btn-electric-violet-2 btn--lg- rounded-50">Read More</a>
-              </div>
-              <div class="portfolio-content__single">
-                <h6 class="portfolio-content__sub-heading">
-                  <span class="text-electric-violet-2">Person 04</span>/ 05
-                </h6>
-                <h2 class="portfolio-content__heading">Dr<br class="d-none d-xs-block"/> Sunny</h2>
-                <span class="portfolio-content__heading-small">Benefactor</span>
-                <p class="portfolio-content__text" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">We are idea generators,goal seekers, challenge-thirsty professionals creators of unique interner projects. we deliver unconventional solutions, combining the most advanced web technologies, modern design and bold communication. For us, each project is a meaningful adventure, in which we become partners with our clients, on the road to perfection </p>
-                <a href="#" class="btn btn-electric-violet-2 btn--lg- rounded-50">Read More</a>
-              </div>
-              <div class="portfolio-content__single">
-                <h6 class="portfolio-content__sub-heading">
-                  <span class="text-electric-violet-2">Project 05</span>/ 05
-                </h6>
-                <h2 class="portfolio-content__heading">Principle Of<br class="d-none d-xs-block"/> Product Design</h2>
-                <span class="portfolio-content__heading-small">By Mehmet Armande</span>
-                <p class="portfolio-content__text" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">We are idea generators,goal seekers, challenge-thirsty professionals creators of unique interner projects. we deliver unconventional solutions, combining the most advanced web technologies, modern design and bold communication. For us, each project is a meaningful adventure, in which we become partners with our clients, on the road to perfection </p>
-                <a href="#" class="btn btn-electric-violet-2 btn--lg- rounded-50">Read More</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </>
-  )
+  const LectureStyle = styled.div`
+  
+  h1,
+h2,
+h3,
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+.section {
+  width: 90vw;
+  margin: 5rem auto;
+  max-width: 1170px;
 }
 
-export default Lecturers
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+.icon {
+  font-size: 3rem;
+  color: hsl(21, 62%, 45%);
+}
+
+.section-center {
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 80vw;
+  height: 450px;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+article.activeSlide {
+  opacity: 1;
+  transform: translateX(0);
+}
+article.lastSlide {
+  transform: translateX(-100%);
+}
+article.nextSlide {
+  transform: translateX(100%);
+}
+
+.person-img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid hsl(210, 31%, 80%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+article h4 {
+  text-transform: uppercase;
+  color: hsl(21, 62%, 45%);
+  margin-bottom: 0.25rem;
+}
+.title {
+  text-transform: capitalize;
+  margin-bottom: 0.75rem;
+  color: hsl(209, 34%, 30%);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.title h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.text {
+  max-width: 35em;
+  margin: 0 auto;
+  margin-top: 2rem;
+  line-height: 2;
+  color: hsl(210, 22%, 49%);
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 200px;
+  transform: translateY(-50%);
+  background: hsl(210, 22%, 49%);
+  color: #fff;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: grid;
+  place-items: center;
+  border-color: transparent;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.prev:hover,
+.next:hover {
+  background: hsl(21, 62%, 45%);
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+@media (min-width: 800px) {
+  .text {
+    max-width: 45em;
+  }
+  .prev,
+  .next {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+}
+  `;
+
+
+
+  const [people] = useState(data);
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const lastIndex = people.length - 1;
+    if (index < 0) {
+      setIndex(lastIndex);
+    }
+    if (index > lastIndex) {
+      setIndex(0);
+    }
+  }, [index, people]);
+
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1);
+    }, 5000);
+    return () => {
+      clearInterval(slider);
+    };
+  }, [index]);
+
+  return (
+
+    <LectureStyle>
+    <section className="section">
+      <div className="title">
+        <h2>top leader</h2>
+      </div>
+      <div className="section-center">
+        {people.map((item, indexPeople) => {
+          const { id, image, name, title, quote } = item;
+          let position = "nextSlide";
+          if (indexPeople === index) {
+            position = "activeSlide";
+          }
+          if (
+            indexPeople === index - 1 ||
+            (index === 0 && indexPeople === people.length - 1)
+          ) {
+            position = "lastSlide";
+          }
+          return (
+            <article className={position} key={id}>
+              <img src={image} alt={name} className="person-img" />
+              <h4>{name}</h4>
+              <p className="title">{title}</p>
+              <p className="text">{quote}</p>
+            </article>
+          );
+        })}
+        <button className="prev" onClick={() => setIndex(index - 1)}>
+          <i className="fas fa-arrow-left" />
+        </button>
+        <button className="next" onClick={() => setIndex(index + 1)}>
+          <i className="fas fa-arrow-right" />
+        </button>
+      </div>
+    </section>
+    </LectureStyle>
+  );
+};
+
+export default Lecturers;

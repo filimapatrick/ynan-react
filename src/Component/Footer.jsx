@@ -1,5 +1,5 @@
 import React from 'react'
- import A26 from '../image/png/ynan.png';
+
 
 
 function Footer() {
