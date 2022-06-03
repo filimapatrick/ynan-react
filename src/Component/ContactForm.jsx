@@ -163,7 +163,7 @@ const ContactPageStyled = styled.section`
                     /* background-color: green; */
                     padding: 0 .5rem;
                     color: inherit;
-                    margin-top: -5rem;
+                    /* margin-top: -5rem; */
                 }
                 input{
                     border: 1px solid green;

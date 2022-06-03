@@ -20,7 +20,7 @@ function GridGallery() {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
+ padding-top: 5rem;
   overflow: hidden;
 
   h1 {
@@ -129,7 +129,7 @@ p {
   return (
     <GalleryStyle>
       
-      <h1>Gallery</h1>
+     
 <div class="wrapper">
 <div class="media">
 <div class="layer">

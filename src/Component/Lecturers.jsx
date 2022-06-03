@@ -17,7 +17,7 @@ h4 {
 }
 .section {
   width: 90vw;
-  margin: 5rem auto;
+  margin:  auto;
   max-width: 1170px;
 }
 

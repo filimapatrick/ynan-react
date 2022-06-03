@@ -12,7 +12,7 @@ function Blog() {
           <div class="col-xl-8">
             {/* <!-- Section Title --> */}
             <div class="section-title section-title--l9 text-center">
-              <h6 class="section-title__sub-heading text-electric-violet-" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">Blog</h6>
+              {/* <h6 class="section-title__sub-heading text-electric-violet-" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">Blog</h6> */}
               <h2 class="section-title__heading" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">Latest Posts</h2>
             </div>
             {/* <!--/ .Section Title --> */}

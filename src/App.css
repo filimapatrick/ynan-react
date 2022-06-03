@@ -88,10 +88,6 @@ body {
   --border-color-6:     rgba(130, 130, 136, 0.3);
 }
 
-p {
-  color: var(--color-texts);
-}
-
 .default-logo, .default-shape {
   display: block;
 }
@@ -390,33 +386,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
   display:none;
 }
 
-.shadow--primary {
-  box-shadow: -12px 12px 50px rgba(253, 52, 110, 0.3);
-}
 
-.shadow--primary-2 {
-  box-shadow: 4px 4px 56px rgba(255, 87, 34, 0.3);
-}
-
-.shadow--primary-3 {
-  box-shadow: 4px 4px 65px rgba(255, 87, 34, 0.5);
-}
-
-.shadow--primary-4 {
-  box-shadow: 0 4px 4px rgba(253, 100, 52, 0.3);
-}
-
-.shadow--primary-5 {
-  box-shadow: 0 10px 20px rgba(255, 87, 34, 0.25);
-}
-
-.shadow--primary-6 {
-  box-shadow: -12px 12px 50px rgba(255, 87, 34, 0.3);
-}
-
-.shadow--primary-7 {
-  box-shadow: 0px 10px 20px rgba(255, 87, 34, 0.25);
-}
 
 .shadow--electric-violet-2 {
   box-shadow: -12px 12px 50px rgba(96, 1, 211, 0.3);
@@ -1094,26 +1064,8 @@ button:focus {
   border-color: black;
 }
 
-.btn-check:focus + .btn-primary, .btn-primary:focus {
-  color: #000;
-  background-color: #ff7043;
-  border-color: #ff6838;
-  box-shadow: 0 0 0 0.2rem rgba(217, 74, 29, 0.5);
-}
 
-.btn-check:checked + .btn-primary,
-.btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
-.show > .btn-primary.dropdown-toggle {
-  color: #000;
-  background-color: #ff794e;
-  border-color: #ff6838;
-}
 
-.btn-check:checked + .btn-primary:focus,
-.btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(217, 74, 29, 0.5);
-}
 
 .btn-primary:disabled, .btn-primary.disabled {
   color: #000;
@@ -9365,26 +9317,26 @@ ________________________________ */
   Home 1 : Welcome Section
 ------------------------------*/
 .welcome-area--l1 {
-  padding-top: 180px;
+  padding-top: 100px;
   padding-bottom: 55px;
 }
 
 @media (min-width: 576px) {
   .welcome-area--l1 {
-    padding-top: 273px;
+    padding-top: 100px;
   }
 }
 
 @media (min-width: 768px) {
   .welcome-area--l1 {
-    padding-top: 270px;
+    padding-top: 100px;
     padding-bottom: 60px;
   }
 }
 
 @media (min-width: 992px) {
   .welcome-area--l1 {
-    padding-top: 210px;
+    padding-top: 140px;
     padding-bottom: 130px;
   }
 }
@@ -15794,7 +15746,7 @@ ________________________________ */
 
 @media (min-width: 992px) {
   .blog-area--l9 {
-    padding-top: 115px;
+    /* padding-top: 115px; */
     padding-bottom: 225px;
   }
 }
