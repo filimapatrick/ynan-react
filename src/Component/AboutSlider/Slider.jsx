@@ -3,6 +3,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from 'styled-components';
+import Orish from '../../image/Lecturers/Orish.jpeg';
+import amadi from '../../image/Lecturers/prof-amadi.jpg'
+import sunny from '../../image/Lecturers/Sunny.jpg'
+
 
 
 function ImageSlider() {
@@ -293,7 +297,7 @@ function ImageSlider() {
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/8.jpg" />
+                        <img src="images/Lekpa.jpg" />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -302,14 +306,14 @@ function ImageSlider() {
                         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h2>David Lekpa <span className="job-title">Lecturer</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/15.jpg" />
+                        <img src={Orish} />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -318,14 +322,14 @@ function ImageSlider() {
                         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h2>Dr.Mrs.Orish <span className="job-title">Founder</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/7.jpg" />
+                        <img src={amadi} />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -334,14 +338,14 @@ function ImageSlider() {
                         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h2>Dr.Amadi <span className="job-title">Partner</span></h2>
                     </div>
                 </div>
             </div>
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src="images/16.jpg" />
+                        <img src={sunny} />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -350,7 +354,7 @@ function ImageSlider() {
                         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>John Doe <span className="job-title">UI Developer</span></h2>
+                        <h2>Dr.Suny <span className="job-title">Lecturer</span></h2>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import B3 from '../../src/image/home-3/feature-l3-image.png';
+import B3 from '../../src/image/pamo/pamo4.jpg';
 
 function AboutStory() {
   return (

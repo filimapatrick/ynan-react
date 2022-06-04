@@ -15,8 +15,9 @@ function HeroSection() {
                 You are. Welcome to<br/>
                 <span className="text-highlight highlight-text d-inline-block"></span>
               </h1>
-              <p className="welcome-content__descriptions">An NGO found in<br/> 2019 aimed <br className="d-none d-xs-block"/> at advancing Research,  Education and Awareness <br className="d-none d-xs-block"/> of Neuroscience   among Nigerian Youths, especially <br className="d-none d-xs-block"/>  High Schools and Colleges.
+              <p className="welcome-content__descriptions"> YNAN is an association that provides<br/>  a platform for interaction, <br className="d-none d-xs-block"/>innovation, creativity and career opportunities.
                 </p>
+            
             
               
             </div>
