@@ -8,6 +8,7 @@ import Lecturers from '../Component/Lecturers';
 import Slider from '../Component/homeEvent/Slider';
 
 
+
 function HomePage() {
   return (
     <>

@@ -118,7 +118,8 @@ p {
   align-items: center;
   img {
       max-width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit:contain;
     }
 }
 
@@ -131,27 +132,30 @@ p {
       
      
 <div class="wrapper">
+  
 <div class="media">
 <div class="layer">
     <p>+ Paul Gilmore</p>
   </div>
-
-
-
   <img src={A6} alt="" />
 </div>
+
+
  <div class="media">
 <div class="layer">
     <p>+ M. O' Neil</p>
   </div>
   <img src={A7} alt="" />
 </div>
+
  <div class="media">
 <div class="layer">
     <p>+ M. O' Neil</p>
   </div>
   <img src={A8} alt="" />
 </div>
+
+
  <div class="media">
 <div class="layer">
     <p>+ M. O' Neil</p>

@@ -1,7 +1,9 @@
 import React from 'react'
- import A24 from '../image/home-8/blogs-img-1.png';
- import A25 from '../image/home-8/blogs-img-2.png';
+//  import A24 from '../image/home-8/blogs-img-1.png';
+//  import A25 from '../image/home-8/blogs-img-2.png';
+import A25 from '../image/home-8/A25.jpg';
   import A28 from '../image/home-8/blogs-img-3.png';
+  import A24 from '../image/home-8/A24.jpg';
 
 function Blog() {
   return (
@@ -25,14 +27,14 @@ function Blog() {
               <img class="w-100" src={A24} alt=""/>
               <div class="hover-content">
                 <div class="hover-content__top d-flex align-items-center dark-mode-texts">
-                  <a href="blog-details.html" class="hover-content__badge badge bg-yellow text-shark">Gadgets</a>
-                  <a href="blog-details.html" class="hover-content__date">01 June, 2020</a>
+                
+                  <a href="https://www.scientificamerican.com/article/cells-deep-in-your-brain-place-time-stamps-on-memories/" class="hover-content__date">01 June, 2020</a>
                 </div>
-                <a href="blog-details.html" class="hover-content__title">We can blend colors multiple<br class='d-none d-xs-block'/> ways, the most common</a>
+                <a href="https://www.scientificamerican.com/article/cells-deep-in-your-brain-place-time-stamps-on-memories/" class="hover-content__title">Cells Deep in Your Brain Place<br class='d-none d-xs-block'/> Time Stamps on Memories</a>
                 <ul class="hover-content__post-meta list-unstyled">
                   <li>
-                    <a href="blog-details.html">By George Lee</a>
-                    <a href="blog-details.html"> 0 Comments</a>
+                    <a href="blog-details.html">By Abdulrahman Olagunju on December</a>
+                    <a href="#"> 10 Comments</a>
                   </li>
                 </ul>
               </div>
@@ -44,15 +46,14 @@ function Blog() {
             <div class="blogs-post blogs-post--small">
               <img class="w-100" src={A25} alt=""/>
               <div class="hover-content">
-                <div class="hover-content__top d-flex align-items-center dark-mode-texts">
-                  <a href="blog-details.html" class="hover-content__badge badge bg-yellow text-shark">Gadgets</a>
-                  <a href="blog-details.html" class="hover-content__date">01 June, 2020</a>
+                <div class="hover-content__top d-flex align-items-center dark-mode-texts"> 
+                  <a href="https://www.researchgate.net/publication/338128621_Neuroprotective_effect_of_aqueous_extract_of_xylopia_aethiopica_seed_on_lead-induced_injury_on_the_hippocampus_and_cerebral_cortex_of_male_wistar_rat" class="hover-content__date">01 June, 2020</a>
                 </div>
-                <a href="blog-details.html" class="hover-content__title">We can blend colors multiple<br class='d-none d-xs-block'/> ways, the most common</a>
+                <a href="https://www.researchgate.net/publication/338128621_Neuroprotective_effect_of_aqueous_extract_of_xylopia_aethiopica_seed_on_lead-induced_injury_on_the_hippocampus_and_cerebral_cortex_of_male_wistar_rat" class="hover-content__title">Neuroprotective effect of aqueous extract of xylopia aethiopica seed<br class='d-none d-xs-block'/> on lead-induced injury on the hippocampus and cerebral cortex of male wistar rat</a>
                 <ul class="hover-content__post-meta list-unstyled">
                   <li>
-                    <a href="blog-details.html">By George Lee</a>
-                    <a href="blog-details.html"> 0 Comments</a>
+                    <a href="blog-details.html">By Filima & Sotonye</a>
+                    <a href="blog-details.html"> 20 Comments</a>
                   </li>
                 </ul>
               </div>
@@ -65,7 +66,6 @@ function Blog() {
               <img class="w-100" src={A28} alt=""/>
               <div class="hover-content">
                 <div class="hover-content__top d-flex align-items-center dark-mode-texts">
-                  <a href="blog-details.html" class="hover-content__badge badge bg-yellow text-shark">Gadgets</a>
                   <a href="blog-details.html" class="hover-content__date">01 June, 2020</a>
                 </div>
                 <a href="blog-details.html" class="hover-content__title">We can blend colors multiple <br class='d-none d-xs-block'/> ways, the most common</a>

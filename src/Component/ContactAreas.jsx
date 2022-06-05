@@ -1,5 +1,5 @@
-import React from 'react'
-import D1 from '../image/home-4/contact-map.png'
+import React from 'react';
+import D1 from '../image/home-4/contact-map.png';
 
 
 function ContactAreas() {

@@ -4,6 +4,7 @@ import AboutStory from '../Component/AboutStory'
 import AboutSummary from '../Component/AboutSummary'
 // import AboutTeam from '../Component/AboutTeam'
 import AboutVision from '../Component/AboutVision'
+import Footer from '../Component/Footer'
 import FooterTwo from '../Component/FooterTwo'
 import { Partners } from '../Component/Partners'
 
@@ -16,7 +17,8 @@ function AboutPage() {
 <ImageSlider/>
 <Partners/>
 {/* <AboutTeam/> */}
-<FooterTwo/>
+{/* <FooterTwo/> */}
+<Footer/>
     </>
   )
 }

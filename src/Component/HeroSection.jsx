@@ -1,6 +1,37 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
+import AOS from 'aos'
+import "aos/dist/aos.css";
 
 function HeroSection() {
+  const [currentWord, setCurrentWord] = useState({
+    word: 'Pharmacies',
+    currentIndex: 0,
+  });
+
+  useEffect(() => {
+    AOS.init({
+      duration: 300
+    })
+    const words = [
+      'You ARE WELCOME',
+      'UNIPORT &<br /> OUR HOME',
+      'YNAN &<br /> OUR SITE',
+      // 'Healthcare <br /> Providers',
+      // 'Government <br />Facilities',
+    ];
+    // Function that executes every 2000 milliseconds
+    const interval = setInterval(function () {
+      setCurrentWord(prev => ({
+        ...prev,
+        word: words[prev.currentIndex],
+        currentIndex:
+          prev.currentIndex === words.length - 1 ? 0 : prev.currentIndex + 1,
+      }));
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <>
 {/* 
@@ -11,10 +42,27 @@ function HeroSection() {
           {/* <!-- Welcome content Area --> */}
           <div className="col-xl-6 col-lg-7 col-md-8 col-xs-11 order- order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div className="welcome-content welcome-content--l1">
-              <h1 className="welcome-content__title">
-                You are. Welcome to<br/>
-                <span className="text-highlight highlight-text d-inline-block"></span>
+              {/* <h1 className="welcome-content__title">
+                You are. Welcome to<br/> */}
+                <span className="text-highlight highlight-text d-inline-block"  >
+                <h1 data-aos="zoom-out-up" style={{color:'green'}}>
+               
+                {currentWord.word.split('<br />').map((word, index) => (
+                  <>
+                    <span
+                      key={word}
+                      className={`animated ${index === 1 ? 'fadeInUp' : 'fadeInDown'
+                        }`}
+                    >
+                      {word}
+                    </span>{' '}
+                  </>
+                ))}
+                <br />
+              
               </h1>
+                </span>
+              {/* </h1> */}
               <p className="welcome-content__descriptions"> YNAN is an association that provides<br/>  a platform for interaction, <br className="d-none d-xs-block"/>innovation, creativity and career opportunities.
                 </p>
             
