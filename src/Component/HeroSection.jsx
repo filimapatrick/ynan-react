@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 function HeroSection() {
   const [currentWord, setCurrentWord] = useState({
-    word: 'Pharmacies',
+    word: 'Neuroscience',
     currentIndex: 0,
   });
 
@@ -13,9 +13,9 @@ function HeroSection() {
       duration: 300
     })
     const words = [
-      'You ARE WELCOME',
-      'UNIPORT &<br /> OUR HOME',
-      'YNAN &<br /> OUR SITE',
+      'TO YNAN',
+      ' TO UNIPORT &<br /> OUR HOME',
+      'TO YNAN &<br /> OUR SITE',
       // 'Healthcare <br /> Providers',
       // 'Government <br />Facilities',
     ];
@@ -42,8 +42,8 @@ function HeroSection() {
           {/* <!-- Welcome content Area --> */}
           <div className="col-xl-6 col-lg-7 col-md-8 col-xs-11 order- order-lg-1" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
             <div className="welcome-content welcome-content--l1">
-              {/* <h1 className="welcome-content__title">
-                You are. Welcome to<br/> */}
+              <h3 className="welcome-content__title">
+                You are. Welcome<br/></h3>
                 <span className="text-highlight highlight-text d-inline-block"  >
                 <h1 data-aos="zoom-out-up" style={{color:'green'}}>
                

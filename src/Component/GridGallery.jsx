@@ -91,7 +91,7 @@ p {
   }
 }
 
-@media (max-width: 800px){
+@media width and  (max-width: 800px){
   body {
     transform: scale(0.6);
   }
@@ -100,7 +100,7 @@ p {
 }
 
 
-@media (max-width: 600px) {
+@media width and (max-width: 600px) {
     .wrapper {
     display: block;
     > * {

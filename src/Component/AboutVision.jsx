@@ -1,5 +1,6 @@
 import React from 'react';
-import B4 from '../../src/image/Brain-Awareness-Week/Bawarenes11.jpg';
+// import B4 from '../../src/image/Brain-Awareness-Week/Bawarenes11.jpg';
+import B4 from '../../src/image/home-5/content-1-l5-img.png'
 
 function AboutVision() {
   return (
@@ -13,8 +14,8 @@ function AboutVision() {
               {/* <!-- Section Title --> */}
               <div class="section-title section-title--l5 mb-6 mb-md-0 text-center text-lg-start" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
                 <h6 class="section-title__sub-heading">Our Vision</h6>
-                <h2 class="section-title__heading">An Exceptionally<br class="d-none d-xxl-block"/> unique experience<br class="d-none d-xxl-block"/> Tailored to you</h2>
-                <p class="section-title__description">In a professional context it often happens that<br class="d-none d-xxl-block"/> private or corporate clients order a publication<br class="d-none d-xxl-block"/> news while still not being ready.</p>
+                <h2 class="section-title__heading"> A unique experience</h2>
+                <p class="section-title__description">To ensure that neuroscience is familiar and <br class="d-none d-xxl-block"/> accessible to all who hope for a future <br class="d-none d-xxl-block"/> In neuroscience and its related field.</p>
                 <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
               </div>
               {/* <!--/ .Section Title --> */}

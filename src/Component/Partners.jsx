@@ -11,8 +11,8 @@ export const Partners = () => {
     const settings = {
       dots: true,
       infinite: true,
-      slidesToShow: 2,
-      slidesToScroll: 1,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       autoplay: true,
       autoplaySpeed: 2000,
       rtl: true
@@ -47,24 +47,24 @@ export const Partners = () => {
         <Slider {...settings}>
           
             <div className="partner" >
-              <img src={BWI}/>
+              <img src={BWI} alt=''/>
             </div>
 
 
             <div className="partner" >
-              <img src={Enc}/>
+              <img src={Enc} alt=''/>
             </div>
 
             <div className="partner" >
-              <img src={Esp}/>
+              <img src={Esp} alt=''/>
             </div>
 
             <div className="partner" >
-              <img src={BWI}/>
+              <img src={BWI} alt=''/>
             </div>
 
             <div className="partner" >
-              <img src={Enc}/>
+              <img src={Enc} alt=''/>
             </div>
           <div>
          

@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactField from '../Component/ContactField';
 import ContactForm from '../Component/ContactForm';
 // import EventSlider from '../Component/EventSlider';
 // import ContactAreas from '../Component/ContactAreas'
@@ -11,7 +12,8 @@ function ContactPage() {
   return (
     <div>
     {/* <ContactAreas/> */}
-    <ContactForm/>
+    {/* <ContactForm/> */}
+    <ContactField/>
      <FooterThree/>
      {/* <EventSlider/> */}
   

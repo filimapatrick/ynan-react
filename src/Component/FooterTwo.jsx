@@ -42,7 +42,8 @@ function FooterTwo() {
                   </a>
                 </div>
                 <p className="footer-widgets__text mt-5">
-                  We’re the digital agency to create<br className="d-none d-xl-block"/> your digital presence for better<br className="d-none d-xl-block"/> conversion and sales.</p>
+                YNAN is an association that provides
+ <br className="d-none d-xl-block"/> a platform for interaction,innovation,<br className="d-none d-xl-block"/> creativity and career opportunities..</p>
                 <ul className="footer-social-share footer-social-share--rounded mt-4">
                   <li>
                     <a href="#">
