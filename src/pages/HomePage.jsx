@@ -6,6 +6,7 @@ import Footer from '../Component/Footer';
 import GridGallery from '../Component/GridGallery';
 import Lecturers from '../Component/Lecturers';
 import Slider from '../Component/homeEvent/Slider';
+import UpcomingEvent from '../Component/UpcomingEvent';
 
 
 
@@ -14,8 +15,9 @@ function HomePage() {
     <>
    
 <HeroSection />
-<Slider/>
+{/* <Slider/> */}
  {/* <Event/> */}
+ <UpcomingEvent/>
  <GridGallery/>
  <Lecturers/>
  <Blog/>

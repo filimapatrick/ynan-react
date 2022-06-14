@@ -92,20 +92,20 @@ function FooterThree() {
                     </ul>
                   </div>
                 </div>
-                <div className="col-md-4 col-xs-9">
-                  <div className="footer-widgets footer-widgets--l7">
-                    <h4 className="footer-widgets__title">Newsletter</h4>
-                    <p className="footer-widgets__text mb-4 mt-0">Get the latest trends updates right at your inbox.</p>
+                {/* <div className="col-md-4 col-xs-9">
+                  <div className="footer-widgets footer-widgets--l7"> */}
+                    {/* <h4 className="footer-widgets__title">Newsletter</h4> */}
+                    {/* <p className="footer-widgets__text mb-4 mt-0">Get the latest trends updates right at your inbox.</p> */}
                     {/* <!-- Newsletter --> */}
-                    <div className="newsletter newsletter--l7">
+                    {/* <div className="newsletter newsletter--l7">
                       <form >
                         <input type="text" placeholder="Enter Your Email"/>
                         <button className="btn btn-primary shadow--primary-4" type="submit">Subscribe</button>
                       </form>
-                    </div>
+                    </div> */}
                     {/* <!--/ .Newsletter --> */}
-                  </div>
-                </div>
+                  {/* </div>
+                </div> */}
               </div>
             </div>
           </div>
