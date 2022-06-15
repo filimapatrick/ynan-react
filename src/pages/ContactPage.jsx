@@ -1,23 +1,15 @@
 import React from 'react'
-import ContactField from '../Component/ContactField';
-import ContactForm from '../Component/ContactForm';
+import Contact from '../Component/Contact';
 import FooterFour from '../Component/FooterFour';
-// import EventSlider from '../Component/EventSlider';
-// import ContactAreas from '../Component/ContactAreas'
-import FooterThree from './FooterThree';
-
-
 
 
 function ContactPage() {
   return (
     <div>
-    {/* <ContactAreas/> */}
-    {/* <ContactForm/> */}
-    <ContactField/>
+  
+    <Contact/>
     <FooterFour/>
-     {/* <FooterThree/> */}
-     {/* <EventSlider/> */}
+    
   
     </div>
   )

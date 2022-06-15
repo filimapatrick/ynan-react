@@ -5,7 +5,7 @@ import FooterCol from './FooterCol';
 
 const FooterStyle = styled.div`
   background-color:rgb(243,244,246);
-  padding-top: 10rem;
+  padding-top: 5rem;
   border-top: 5px solid rgb(255,255,255);
   .container {
     display: flex;
