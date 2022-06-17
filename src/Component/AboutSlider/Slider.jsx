@@ -53,11 +53,12 @@ function ImageSlider() {
     
   
   .slider_title {
-    font-size: 5vw;
-    color: tomato;
+    font-size: 3vw;
+    color: black;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2vw;
+    font-weight: 400;
   }
   
   .card-wrapper {
@@ -293,8 +294,11 @@ function ImageSlider() {
     return (
 
         <AboutSlider>
+             <div className="slider_title">Mind Behind YNAN</div>
         <Slider {...settings}>
+          
             <div className="card-wrapper">
+           
                 <div className="card">
                     <div className="card-image">
                         <img src="images/Lekpa.jpg" />

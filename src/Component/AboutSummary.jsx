@@ -12,8 +12,8 @@ function AboutSummary() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-7">
-            <h2 className="page-title-content__heading">About Us</h2>
-            <p className="page-title-content__text">Here at Youth Neuroscience Association of Nigeria, our mission is to advance international collaborations of young neuroscientists and Neuro-practitioners. </p>
+            <h2 className="page-title-content__heading">Our Mission</h2>
+            <p className="page-title-content__text">To motivate students to learn about the brain and to inspire them to pursue careers in neuroscience so that can treat neurological diseases.</p>
           </div>
         </div>
       </div>
@@ -39,8 +39,14 @@ function AboutSummary() {
             <div className="about-us-right mt-4 mt-lg-0">
               <div className="section-title section-title--l5">
                 <h6 className="section-title__sub-heading text-primary">Watch video</h6>
-                <h2 className="section-title__heading mb-4">Watch how we work</h2>
-                <p className="section-title__description">We advance international collaborations of young neuroscientists and Neuro-practitioners by educating them about the brain and motivating them to pursue neuro related career in order to fight the increasing neurological diseases in Nigeria and also contribute to the global community through advocacy
+                <h2 className="section-title__heading mb-4">Misions</h2>
+                <p className="section-title__description">
+                  {/* We advance international collaborations of young neuroscientists and Neuro-practitioners by educating them about the brain and motivating them to pursue neuro related career in order to fight the increasing neurological diseases in Nigeria and also contribute to the global community through advocacy */}
+                 <ul>
+                  <li>To run a jornal club</li>
+                  <li>To encourage participations in outreaches and create Awareness on neurological conditions and approaches to deal with them</li>
+                  <li>Allow students to cultivate their interest in Neuroscience in an informal environment, without the pressure of being graded.</li>
+                 </ul>
                  </p>
               </div>
               <div className="content-btn-group mt-4">
