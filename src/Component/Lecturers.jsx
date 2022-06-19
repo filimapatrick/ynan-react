@@ -174,7 +174,7 @@ article h4 {
     <LectureStyle>
     <section className="section">
       <div className="title">
-        <h2>top leader</h2>
+        <h2>The People We are Proud Of</h2>
       </div>
       <div className="section-center">
         {people.map((item, indexPeople) => {

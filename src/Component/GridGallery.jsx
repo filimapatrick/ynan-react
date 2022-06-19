@@ -21,6 +21,7 @@ function GridGallery() {
   justify-content: center;
   align-items: center;
  padding-top: 5rem;
+ padding-bottom: 5rem;
   overflow: hidden;
 
   h1 {

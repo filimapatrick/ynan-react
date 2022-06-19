@@ -80,7 +80,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/contact"
+                to="#"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

@@ -4,9 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styled from 'styled-components';
 import Orish from '../../image/Lecturers/Orish.jpeg';
-import amadi from '../../image/Lecturers/prof-amadi.jpg'
-import sunny from '../../image/Lecturers/Sunny.jpg'
-
+import amadi from '../../image/Lecturers/prof-amadi.jpg';
+import patron1 from '../../image/Lecturers/patron1.jpg';
+import patron2 from '../../image/Lecturers/patron2.jpeg';
+import patron3 from '../../image/Lecturers/patron3.jpg';
 
 
 function ImageSlider() {
@@ -297,7 +298,7 @@ function ImageSlider() {
              <div className="slider_title">Mind Behind YNAN</div>
         <Slider {...settings}>
           
-            <div className="card-wrapper">
+            {/* <div className="card-wrapper">
            
                 <div className="card">
                     <div className="card-image">
@@ -313,7 +314,7 @@ function ImageSlider() {
                         <h2>David Lekpa <span className="job-title">Lecturer</span></h2>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
@@ -330,6 +331,8 @@ function ImageSlider() {
                     </div>
                 </div>
             </div>
+
+
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
@@ -342,14 +345,15 @@ function ImageSlider() {
                         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Dr.Amadi <span className="job-title">Partner</span></h2>
+                        <h2>Dr.Amadi <span className="job-title">Co-Founder</span></h2>
                     </div>
                 </div>
             </div>
+
             <div className="card-wrapper">
                 <div className="card">
                     <div className="card-image">
-                        <img src={sunny} />
+                        <img src={patron1} />
                     </div>
                     <ul className="social-icons">
                         <li><a href="#"><i className="fa fa-facebook"></i></a></li>
@@ -358,7 +362,42 @@ function ImageSlider() {
                         <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
                     </ul>
                     <div className="details">
-                        <h2>Dr.Suny <span className="job-title">Lecturer</span></h2>
+                        <h2> Prof  Danjuma <span className="job-title">Grand Patron/President Of NSN</span></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div className="card-wrapper">
+                <div className="card">
+                    <div className="card-image">
+                        <img src={patron2} />
+                    </div>
+                    <ul className="social-icons">
+                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                    </ul>
+                    <div className="details">
+                        <h2>Prof.Olopade <span className="job-title">Grand Patron/President Of Sona</span></h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="card-wrapper">
+                <div className="card">
+                    <div className="card-image">
+                        <img src={patron3} />
+                    </div>
+                    <ul className="social-icons">
+                        <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i className="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                    </ul>
+                    <div className="details">
+                        <h2>Dr.Mahmoud Bukar <span className="job-title"> Patron</span></h2>
                     </div>
                 </div>
             </div>

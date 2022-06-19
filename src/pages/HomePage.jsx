@@ -10,6 +10,7 @@ import UpcomingEvent from '../Component/UpcomingEvent';
 
 
 
+
 function HomePage() {
   return (
     <>
@@ -22,6 +23,7 @@ function HomePage() {
  <Lecturers/>
  <Blog/>
 <Footer/>
+
     </>
   )
 }

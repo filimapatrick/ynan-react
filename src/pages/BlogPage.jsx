@@ -1,12 +1,14 @@
 import React from 'react'
 import BlogCard from '../Component/BlogCard'
-import FooterThree from './FooterThree'
+import FooterFour from '../Component/FooterFour'
+// import FooterThree from './FooterThree'
 
 function BlogPage() {
   return (
     <div>
       <BlogCard/>
-      <FooterThree/>
+      {/* <FooterThree/> */}
+      <FooterFour/>
     </div>
   )
 }

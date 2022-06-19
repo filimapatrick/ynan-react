@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import NavBar from './Component/NavBar';
 import BlogPage from './pages/BlogPage';
+import EventPage from './pages/EventPage';
 
 
 
@@ -23,6 +24,7 @@ function App() {
 <Route path="/about" element={<AboutPage />} />
 <Route path="/contact" element={<ContactPage />} />
 <Route path="/blog" element={<BlogPage />} />
+<Route path="/event" element={<EventPage />} />
 
 
 </Routes>

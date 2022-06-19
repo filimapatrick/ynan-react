@@ -77,9 +77,9 @@ padding-right: 4rem;
         pauseOnHover: true
       };
   return (
-    <EventStyle>
+    <EventStyle >
         <h2>Up Coming Events</h2>
-        <Slider {...settings}>
+        <Slider {...settings} >
           <div className='upcoming'>
           <img src={E1} alt=""/>
           <div class="overlay">

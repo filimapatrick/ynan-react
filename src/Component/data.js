@@ -1,17 +1,19 @@
-import A1 from '../../src/image/Lecturers/Lekpa.jpg';
+
 import A2 from '../image/Lecturers/Orish.jpeg';
-import A3 from '../image/Lecturers/Sunny.jpg';
 import A4 from '../image/Lecturers/prof-amadi.jpg';
+import patron1 from '../image/Lecturers/patron1.jpg';
+import patron2 from '../image/Lecturers/patron2.jpeg';
+import patron3 from '../image/Lecturers/patron3.jpg';
 
 
 const people = [
     {
       id: 1,
-      image: A1,
-      name: "Lekpa",
-      title: "Mentor",
+      image: patron1,
+      name: "Prof Nuhu Mohammed Dabjuma",
+      title: "President, Neuroscience Society Of Nigeria(NSN)/Grand Patron",
       quote:
-        "Lekpa Kingdom David works at the Department of Anatomy, University of Port Harcourt. He was a Postdoctoral Fellow at The City College of New York, United States. Lekpa does research in Neuroscience. Their current Research is on Elucidating the Neural Mechanisms of Skill Movements using Reach-to-Grasp task in Rat.Our neural repair studies focus on animal forelimb movements as models for human arm and hand use after brain or spinal cord injury",
+        "Prof Nuhu Mohammed Dabjuma studied Pharmacy at the Zaporizhzhia State Medical University and graduated with MPharm in 1994. He worked briefly as a Community Pharmacist before joining the services of Ahmadu Bello University, Zaria, Nigerian, in 1999 as an Assistant Lecturer. He rose through the ranks to become Professor of Pharmacology in 2014. His main research focus is Neuropharmacology with bias in developing new anti-epileptic agents.",
     },
     {
       id: 2,
@@ -23,19 +25,27 @@ const people = [
     },
     {
       id: 3,
-      image: A3,
-      name: "Lecturer",
-      title: "Product Manager",
+      image: patron2,
+      name: "Professor James Olukayode OLOPADE",
+      title: "YNAN Grand Patron/President Of Society Neuroscience Of Africa(SONA)",
       quote:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "Professor James Olukayode OLOPADE an indigene of Ibadan was born in Lagos, Nigeria on the 21st May, 1971. He attended Lantana Day Nursery and Command Children School both in Lagos before attending Command Secondary School Ibadan. He was admitted into University of Ibadan in 1986 to study Veterinary Medicine and graduated with the DVM degree in 1992.Prof Olopade’s research areas are Neuroscience and Comparative Anatomy. He has been funded by the International Society of Neurochemistry, International Brain Research Organisation, Alexander von Humboldt, Tertiary Education Trust Fund and UI Research Foundation and has over 80 publications to his credit",
     },
     {
-      id: A4,
+      id: 4,
       image: A4,
       name: "Proffessor Amadi",
-      title: "Partner",
+      title: "Co-Founder",
       quote:
         "Professor of Anatomy, a Neuroscientist and Head of School of Anatomical Sciences. Primary research thrust is in Comparative Adult Neurogenesis and gliogenesis in various mammalian and avian species. Past Secretary General/CEO, Society of Neuroscientists of Africa (SONA; 2017-2021) and now, Chair Governing Council (SONA) till 2023. Prof Ihunwo is a Councillor, representing Africa on the Council of the International Society for Neurochemistry (ISN) 2021 - 2025. PROFESSOR Ihunwo was the Principal Investigator under the prestigious Switzerland-South Africa Joint Research Programme (SSAJRP) from 2009-2014. This research provided empirical database of active and potential neurogenic sites in adult mammalian brains. The investigation focused first on South African mammalian species and then species from tropical rain forest and desert environments; for species-specific proliferation rate and time course of adult hippocampal neurogenesis during lifetime..",
+    },
+    {
+      id: 5,
+      image: patron3,
+      name: "Dr.Mahmoud Bukar Maina",
+      title: "Patron of YNAN And PostDoc Fellow At University Of Sussex, UK",
+      quote:
+        "Dr.Mahmoud Bukar Maina is a Nigerian neuroscientist, educator, and researcher, based at the University of Sussex in the United Kingdom. His research is focused on the cellular and molecular pathogenesis in Alzheimer's disease. He performs outreach work to inspire young people in Africa to pursue science and to increase public understanding of science.",
     },
   ];
   
