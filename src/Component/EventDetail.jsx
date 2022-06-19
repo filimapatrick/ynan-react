@@ -13,6 +13,7 @@ function EventDetail() {
             background-size: cover;
             padding-top:7rem;
             padding-bottom:7rem;
+          
            
         }
           
@@ -175,8 +176,9 @@ function EventDetail() {
             border-color: #e91e63;
         }
 
-    
-    
+        
+
+      
     `
   return (
     <EventStyle>

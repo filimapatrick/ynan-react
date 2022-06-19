@@ -12,8 +12,8 @@ function AboutSummary() {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-7">
-            <h2 className="page-title-content__heading">Our Mission</h2>
-            <p className="page-title-content__text">To motivate students to learn about the brain and to inspire them to pursue careers in neuroscience so that can treat neurological diseases.</p>
+            <h2 className="page-title-content__heading">About Us</h2>
+            <p className="page-title-content__text">YNAN is an association that provides a platform for interaction,innovation,creativity and career opportunities to explore into areas related to the nervous system,especially the Brain.</p>
           </div>
         </div>
       </div>

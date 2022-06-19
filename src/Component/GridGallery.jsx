@@ -136,7 +136,7 @@ p {
   
 <div class="media">
 <div class="layer">
-    <p>+ Paul Gilmore</p>
+    <p>Award given session at the Brain Aware week by Dr.Mrs Ezejiorfor</p>
   </div>
   <img src={A6} alt="" />
 </div>
@@ -144,14 +144,14 @@ p {
 
  <div class="media">
 <div class="layer">
-    <p>+ M. O' Neil</p>
+    <p>Brain Autism Outreach At Port-Harcourt Autism Centre</p>
   </div>
   <img src={A7} alt="" />
 </div>
 
  <div class="media">
 <div class="layer">
-    <p>+ M. O' Neil</p>
+    <p>Photo Session with YNAN student excos</p>
   </div>
   <img src={A8} alt="" />
 </div>
@@ -159,14 +159,15 @@ p {
 
  <div class="media">
 <div class="layer">
-    <p>+ M. O' Neil</p>
+    <p>Brain Exhibition with Dr.Mike Oyakhire</p>
   </div>
 
   <img src={A9} alt="" />
 </div>
  <div class="media">
 <div class="layer">
-    <p>+ M. O' Neil</p>
+    <p>Brain Perfusion session with Dr.Mrs Ebere
+    </p>
   </div>
 
   <img src={A10} alt="" />
@@ -180,14 +181,14 @@ p {
 </div>
  <div class="media">
 <div class="layer">
-    <p>+ M. O' Neil</p>
+    <p>Stapple Chase sessin with the students</p>
   </div>
 
   <img src={A12} alt="" />
 </div>
  <div class="media">
 <div class="layer">
-    <p>+ M. O' Neil</p>
+    <p>Award Given session By Dr.Mrs Orish and Dr.Ebere</p>
   </div>
 
   <img src={A13} alt="" />
@@ -200,7 +201,7 @@ p {
 </div>
    <div class="media">
 <div class="layer">
-    <p>+ N. Mehta</p>
+    <p>Brain perfusion session with Dr.Mrs Orish</p>
   </div>
 <img src={A15} alt="" />
 </div>
