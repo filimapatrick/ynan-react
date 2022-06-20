@@ -11,9 +11,9 @@ const people = [
       id: 1,
       image: patron1,
       name: "Prof Nuhu Mohammed Dabjuma",
-      title: "President, Neuroscience Society Of Nigeria(NSN)/Grand Patron",
+      title: "President NSN /Grand Patron",
       quote:
-        "Prof Nuhu Mohammed Dabjuma studied Pharmacy at the Zaporizhzhia State Medical University and graduated with MPharm in 1994. He worked briefly as a Community Pharmacist before joining the services of Ahmadu Bello University, Zaria, Nigerian, in 1999 as an Assistant Lecturer. He rose through the ranks to become Professor of Pharmacology in 2014. His main research focus is Neuropharmacology with bias in developing new anti-epileptic agents.",
+        "Prof Nuhu Mohammed Dabjuma studied Pharmacy at the Zaporizhzhia State Medical University and graduated with MPharm in 1994. His main research focus is Neuropharmacology with bias in developing new anti-epileptic agents.",
     },
     {
       id: 2,
@@ -26,10 +26,10 @@ const people = [
     {
       id: 3,
       image: patron2,
-      name: "Professor James Olukayode OLOPADE",
-      title: "YNAN Grand Patron/President Of Society Neuroscience Of Africa(SONA)",
+      name: "Prof James Olukayode OLOPADE",
+      title: "YNAN Grand Patron/President Of SONA",
       quote:
-        "Professor James Olukayode OLOPADE an indigene of Ibadan was born in Lagos, Nigeria on the 21st May, 1971. He attended Lantana Day Nursery and Command Children School both in Lagos before attending Command Secondary School Ibadan. He was admitted into University of Ibadan in 1986 to study Veterinary Medicine and graduated with the DVM degree in 1992.Prof Olopade’s research areas are Neuroscience and Comparative Anatomy. He has been funded by the International Society of Neurochemistry, International Brain Research Organisation, Alexander von Humboldt, Tertiary Education Trust Fund and UI Research Foundation and has over 80 publications to his credit",
+        "Professor James Olukayode OLOPADE an indigene of Ibadan was born in Lagos, Nigeria.Prof Olopade’s research areas are Neuroscience and Comparative Anatomy. He has been funded by the International Society of Neurochemistry, International Brain Research Organisation, Alexander von Humboldt",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const people = [
       name: "Dr.Mahmoud Bukar Maina",
       title: "Patron of YNAN And PostDoc Fellow At University Of Sussex, UK",
       quote:
-        "Dr.Mahmoud Bukar Maina is a Nigerian neuroscientist, educator, and researcher, based at the University of Sussex in the United Kingdom. His research is focused on the cellular and molecular pathogenesis in Alzheimer's disease. He performs outreach work to inspire young people in Africa to pursue science and to increase public understanding of science.",
+        "Dr.Mahmoud Bukar Maina is a Nigerian neuroscientist, educator, and researcher, based at the University of Sussex in the United Kingdom. His research is focused on the cellular and molecular pathogenesis in Alzheimer's disease. He performs outreach work to inspire young people.",
     },
   ];
   

@@ -9,8 +9,8 @@ import E4 from '../image/HomeEvents/E3.jpg';
 function UpcomingEvent() {
 const EventStyle = styled.div  ` 
 position: relative;
-padding-left: 4rem;
-padding-right: 4rem;
+padding-left: 1rem;
+padding-right: 1rem;
 .upcoming{
     display: block;
   width: 100%;
@@ -82,74 +82,74 @@ padding-right: 4rem;
         <Slider {...settings} >
           <div className='upcoming'>
           <img src={E1} alt=""/>
-          <div class="overlay">
+          {/* <div class="overlay"> */}
           
-          <div className="content-btn-group mt-4">
+          {/* <div className="content-btn-group mt-4">
                 <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a>
-                {/* <!-- <a className="btn btn--lg-3 btn-electric-violet-2 shadow--electric-violet-2-2 rounded-50 me-3 text-white mb-3" href="#">Get Started</a> --> */}
-              </div>
-          </div>
+             
+              </div> */}
+          {/* </div> */}
           </div>
 
 
           <div className='upcoming'>
             <img src={E2} alt=""/>
-          <div class="overlay">
+          {/* <div class="overlay"> */}
            
           
-          <div className="content-btn-group mt-4">
+          {/* <div className="content-btn-group mt-4">
                 <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a>
-                {/* <!-- <a className="btn btn--lg-3 btn-electric-violet-2 shadow--electric-violet-2-2 rounded-50 me-3 text-white mb-3" href="#">Get Started</a> --> */}
-              </div>
-          </div>
+
+              </div> */}
+          {/* </div> */}
           </div>
 
 
           <div className='upcoming' >
           <img src={E3} alt=""/>
-          <div class="overlay">
+          {/* <div class="overlay"> */}
            
-          <div className="content-btn-group mt-4">
+          {/* <div className="content-btn-group mt-4">
                 <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a>
-                {/* <!-- <a className="btn btn--lg-3 btn-electric-violet-2 shadow--electric-violet-2-2 rounded-50 me-3 text-white mb-3" href="#">Get Started</a> --> */}
-              </div>
-          </div>
+
+              </div> */}
+          {/* </div> */}
           </div>
 
 
           <div className='upcoming'>
           <img src={E4} alt=""/>
-          <div class="overlay">
+          {/* <div class="overlay"> */}
            
            
-          <div className="content-btn-group mt-4">
+          {/* <div className="content-btn-group mt-4">
                 <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a>
-                {/* <!-- <a className="btn btn--lg-3 btn-electric-violet-2 shadow--electric-violet-2-2 rounded-50 me-3 text-white mb-3" href="#">Get Started</a> --> */}
-              </div>
-          </div>
+
+              </div> */}
+          {/* </div> */}
           </div>
 
 
           <div className='upcoming'>
           <img src={E1} alt=""/>
-          <div class="overlay">
-          <div className="content-btn-group mt-4">
+          {/* <div class="overlay"> */}
+          {/* <div className="content-btn-group mt-4">
                 <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a>
-                {/* <!-- <a className="btn btn--lg-3 btn-electric-violet-2 shadow--electric-violet-2-2 rounded-50 me-3 text-white mb-3" href="#">Get Started</a> --> */}
-              </div>
-          </div>
+
+              </div> */}
+          {/* </div> */}
           </div>
 
 
           <div className='upcoming'>
           <img src={E2} alt=""/>
-          <div class="overlay">
+          {/* <div class="overlay"> */}
            
-          <div className="content-btn-group mt-4">
-                <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a>
-                {/* <!-- <a className="btn btn--lg-3 btn-electric-violet-2 shadow--electric-violet-2-2 rounded-50 me-3 text-white mb-3" href="#">Get Started</a> --> */}
-              </div>
-          </div>
+          {/* <div className="content-btn-group mt-4"> */}
+                {/* <a className="btn btn--lg-3 btn-primary me-3 text-white shadow--primary-2 rounded-50 me-3 popup-btn mb-3" href="https://www.youtube.com/watch?v=LWZ7iytIA6k">Learn More</a> */}
+                 {/* <a className="btn btn--lg-3 btn-electric-violet-2 shadow--electric-violet-2-2 rounded-50 me-3 text-white mb-3" href="#">Get Started</a> 
+              </div> */}
+          {/* </div> */}
           </div>
         </Slider>
      

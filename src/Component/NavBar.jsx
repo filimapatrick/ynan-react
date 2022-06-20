@@ -80,7 +80,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="#"
+                to="https://docs.google.com/forms/d/1JGWJae6Ztb9I-aKa_K8r_qwmEhR06hAWY42cCbkKo-0/edit"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
