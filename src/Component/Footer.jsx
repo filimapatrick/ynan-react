@@ -29,19 +29,19 @@ function Footer() {
                   <div class="footer-menu text-center text-md-end">
                     <ul class="list-unstyled">
                       <li>
-                        <a href="about-us.html">About us</a>
+                        <a href="./about">About us</a>
                       </li>
                       <li>
-                        <a href="terms-page.html">Privacy Policy</a>
+                        <a href="#">Privacy Policy</a>
                       </li>
                       <li>
-                        <a href="terms-page.html">Terms & Conditions</a>
+                        <a href="#">Terms & Conditions</a>
                       </li>
                       <li>
-                        <a href="testimonial-1.html">Reviews</a>
+                        {/* <a href="testimonial-1.html">Reviews</a> */}
                       </li>
                       <li>
-                        <a href="contact-1.html">Contact</a>
+                        <a href="./contact">Contact</a>
                       </li>
                     </ul>
                   </div>

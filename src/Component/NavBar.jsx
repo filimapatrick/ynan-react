@@ -78,15 +78,16 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              <NavLink
-                exact
+              {/* <div className="nav-btn"> */}
+              <a className="register" href="https://forms.gle/SG99c7gdPQGgaU9K9">Register </a>
+                {/* exact
                 to="https://docs.google.com/forms/d/1JGWJae6Ztb9I-aKa_K8r_qwmEhR06hAWY42cCbkKo-0/edit"
                 activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Register
-              </NavLink>
+                className="nav-links" */}
+               
+              {/* > */}
+                {/* Register */}
+              {/* </div> */}
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>

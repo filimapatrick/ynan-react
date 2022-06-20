@@ -44,6 +44,9 @@
     object-fit: contain;
   }
   
+  .register{
+    color:black;
+  }
   
   .nav-menu {
     display: flex;
